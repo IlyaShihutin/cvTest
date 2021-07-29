@@ -1,0 +1,21 @@
+.list_wrapper{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  .list_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(173,173,173 ,0.5);
+    .btn_block{
+      &>div{
+        &:nth-child(1){
+          background-color: red;
+        }
+      }
+    }
+  }
+}
